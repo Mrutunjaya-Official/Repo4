@@ -163,23 +163,23 @@
       margin-bottom: var(--spacing);
     }
     .hero h1 {
-      margin: 0 0 12px;
-      font-size: 48px;
-      font-weight: 700;
+      margin: 0 0 0.25rem;
+      font-size: 1.75rem;
+      font-weight: 600;
       color: var(--color-text-primary);
-      user-select: text;
+      line-height: 1.1;
     }
     .hero p {
-      margin: 0 auto 32px;
-      font-size: 18px;
+      margin: 0 auto;
+      font-size: 0.875rem;
       color: var(--color-text-secondary);
       user-select: text;
-      max-width: 460px;
+      max-width: 300px;
     }
     .hero button {
-      font-weight: 700;
-      font-size: 18px;
-      padding: 14px 48px;
+      font-weight: 400;
+      font-size: 0.9rem;
+      padding: 0.5rem 1.5rem;
       border-radius: var(--border-radius);
       cursor: pointer;
       border: none;
@@ -200,8 +200,8 @@
     .study-cards {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 24px;
-      max-width: 960px;
+      gap: 14px;
+     
       margin: 0 auto 48px;
     }
     @media (min-width: 700px) {
@@ -214,13 +214,13 @@
       background: var(--color-card-bg);
       border-radius: var(--border-radius);
       box-shadow: 0 3px 8px var(--color-shadow);
-      padding: 24px;
+      padding: 14px;
       cursor: pointer;
       display: flex;
       flex-direction: column;
       color: var(--color-text-primary);
       transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
-      min-height: 140px;
+      min-height: 92px;
       user-select: text;
     }
     .card:hover,
